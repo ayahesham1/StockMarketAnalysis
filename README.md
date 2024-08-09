@@ -25,4 +25,4 @@ The Stock Market Analysis project is designed to predict stock prices by trainin
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/stock-market-analysis.git
+git clone https://github.com/ayahesham1/StockMarketAnalysis.git
