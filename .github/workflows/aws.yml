@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: stock-market-analysis   # Your Amazon ECR repository name
   ECS_SERVICE: stockMarketAnalysis-service # Your Amazon ECS service name
   ECS_CLUSTER: StockMarketAnalysis         # Your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: .aws/task-definition.json # Path to your ECS task definition, or remove if not using it
+  ECS_TASK_DEFINITION: stockMarketAnalysis-task:1 #.aws/task-definition.json Path to your ECS task definition, or remove if not using it
   CONTAINER_NAME: stockMarketAnalysis-container  # The name of your container in the task definition
 
 permissions:
